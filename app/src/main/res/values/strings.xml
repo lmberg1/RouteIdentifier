@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RouteIdentifier</string>
+    <string name="textView3">Search for Routes</string>
+    <string name="button3">Identify Routes</string>
+    <string name="draw_route">Draw Route</string>
+    <string name="delete_route">Delete Route</string>
+    <string name="select_photo">Choose Image</string>
+    <string name="select_bolt">Select Bolt</string>
+    <string name="title_activity_display_routes_list">DisplayRoutesListActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
