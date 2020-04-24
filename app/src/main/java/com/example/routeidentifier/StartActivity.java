@@ -41,6 +41,13 @@ public class StartActivity extends AppCompatActivity {
     public static StitchUser stitchUser;
     ArrayList<Document> suggestions;
 
+    static {
+        if (!OpenCVLoader.initDebug()) {
+            // Handle initialization error
+            Log.e(TAG, "OpenCV Initialization Error!");
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
